@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Find a store</title>
+
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+
+        <div class="map-search">
+            <h3 class="title">Find us</h3>
+            <p>Tell us where you are and we'll show you our nearest stores.</p>
+            <input type="text" id="map-search-autocomplete" class="map-search-autocomplete">
+        </div>
+
+        <div id="map"></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="js/app.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"></script>
+    </body>
+</html>
